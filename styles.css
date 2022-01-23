@@ -1,0 +1,53 @@
+body {
+  background-image: url("../images/giphy.gif");
+  background-size: 79%;
+  background-position: center;
+  display: block;
+}
+
+h1 {
+  color: white;
+}
+
+.current-city {
+  position: relative;
+  left: 550px;
+  bottom: 45px;
+}
+
+.weatherbox {
+  position: relative;
+  left: 600px;
+  bottom: 150px;
+}
+.list-group-item {
+  background: lightblue;
+}
+
+.degree {
+  color: blue;
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: xx-large;
+}
+.rain {
+  text-align: center;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.Forecast {
+  position: relative;
+  right: 35px;
+  bottom: 50px;
+  padding: 65px;
+  border-radius: 10px;
+}
+
+hr {
+  border: 1px solid blue;
+}
+
+.card-header {
+  color: blue;
+}

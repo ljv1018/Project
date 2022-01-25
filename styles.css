@@ -51,3 +51,10 @@ hr {
 .card-header {
   color: blue;
 }
+
+.github-link {
+  position: relative;
+  left: 600px;
+  color: white;
+  font-weight: bolder;
+}

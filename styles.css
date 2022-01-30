@@ -19,6 +19,7 @@ h1 {
   position: relative;
   left: 600px;
   bottom: 150px;
+  background: lightblue;
 }
 .list-group-item {
   background: lightblue;

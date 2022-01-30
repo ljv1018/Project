@@ -76,11 +76,12 @@ function displayWeatherCondition(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
-  let humidityElement = document.querySelector("#humidity");
-  let windElement = document.querySelector("#wind");
-  humidityElement.innerHTML = response.data.main.humidity;
-  windElement.innerHTML = Math.round(response.data.wind.speed);
 }
+
+let humidityElement = document.querySelector("#humidity");
+let windElement = document.querySelector("#wind");
+humidityElement.innerHTML = response.data.main.humidity;
+windElement.innerHTML = Math.round(response.data.wind.speed);
 
 function showCity(event) {
   event.preventDefault();

@@ -59,3 +59,13 @@ hr {
   color: white;
   font-weight: bolder;
 }
+.card-body {
+  background: lightblue;
+}
+
+.col-md-4 {
+  background: lightblue;
+}
+.row g-0 {
+  background: lightblue;
+}

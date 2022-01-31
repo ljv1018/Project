@@ -47,6 +47,7 @@ function convertToFahrenheit(event) {
 function convertToCelsius(event) {
   event.preventDefault();
   let tempElement = document.querySelector("#card-title");
+  let celsiusTemperature = ((farenheitTemperature - 32) * 5) / 9;
   tempElement.innerHTML = Math.round(celsiusTemperature);
 }
 

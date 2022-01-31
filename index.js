@@ -40,7 +40,7 @@ dateTimeElement.innerHTML = formDate(new Date());
 function convertToFahrenheit(event) {
   event.preventDefault();
   let tempElement = document.querySelector("#card-title");
-  let farenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
+
   tempElement.innerHTML = Math.round(farenheitTemperature);
 }
 

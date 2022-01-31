@@ -1,3 +1,5 @@
+let farenheitTemperature;
+
 function search(event) {
   event.preventDefault();
   let name = document.querySelector("#city-name");
@@ -40,7 +42,7 @@ dateTimeElement.innerHTML = formDate(new Date());
 function convertToFahrenheit(event) {
   event.preventDefault();
   let tempElement = document.querySelector("#card-title");
-
+  // let farenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   tempElement.innerHTML = Math.round(farenheitTemperature);
 }
 
@@ -75,9 +77,11 @@ function displayWeatherCondition(response) {
   let iconElement = document.querySelector("#icon");
 
   document.querySelector("#city-name").innerHTML = response.data.name;
-  document.querySelector("#card-title").innerHTML = Math.round(
-    response.data.main.temp
-  );
+
+  farenheitTemperature = response.data.main.temp;
+  document.querySelector("#card-title").innerHTML =
+    Math.round(farenheitTemperature);
+
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;

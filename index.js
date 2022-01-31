@@ -40,21 +40,15 @@ dateTimeElement.innerHTML = formDate(new Date());
 function convertToFahrenheit(event) {
   event.preventDefault();
   let tempElement = document.querySelector("#card-title");
-  celciusLink.classList.remove("active");
-  fahrenheitLink.classList.add("active");
   let farenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
   tempElement.innerHTML = Math.round(farenheitTemperature);
 }
 
 function convertToCelsius(event) {
   event.preventDefault();
-  celciusLink.classList.add("active");
-  fahrenheitLink.classList.remove("active");
   let tempElement = document.querySelector("#card-title");
   tempElement.innerHTML = Math.round(celsiusTemperature);
 }
-
-let celsiusTemperature = null;
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", convertToFahrenheit);

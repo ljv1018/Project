@@ -40,6 +40,7 @@ h1 {
 .Forecast {
   position: relative;
   right: 35px;
+  left: 25px;
   bottom: 30px;
   padding: 20px;
   border-radius: 10px;
@@ -75,6 +76,8 @@ hr {
   font-size: 16px;
   opacity: 0.5;
   color: black;
+  position: relative;
+  left: 25px;
 }
 
 .weather-forecast-temperature-min {

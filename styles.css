@@ -43,6 +43,7 @@ h1 {
   bottom: 50px;
   padding: 65px;
   border-radius: 10px;
+  color: white;
 }
 
 hr {
@@ -77,8 +78,10 @@ hr {
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+  color: white;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  color: white;
 }

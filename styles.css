@@ -40,10 +40,10 @@ h1 {
 .Forecast {
   position: relative;
   right: 35px;
-  bottom: 50px;
-  padding: 65px;
+  bottom: 30px;
+  padding: 20px;
   border-radius: 10px;
-  color: white;
+  color: black;
   background-color: lightblue;
 }
 
@@ -74,15 +74,15 @@ hr {
 .weather-forecast-date {
   font-size: 16px;
   opacity: 0.5;
-  color: white;
+  color: black;
 }
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
-  color: white;
+  color: black;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
-  color: white;
+  color: black;
 }

@@ -39,7 +39,7 @@ h1 {
 
 .Forecast {
   position: relative;
-  right: 35px;
+  right: 45px;
   left: 25px;
   bottom: 30px;
   padding: 20px;
@@ -83,9 +83,18 @@ hr {
 .weather-forecast-temperature-min {
   opacity: 0.5;
   color: black;
+  position: relative;
+  left: 25px;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
   color: black;
+  position: relative;
+  left: 25px;
+}
+
+.pic {
+  position: relative;
+  left: 25px;
 }

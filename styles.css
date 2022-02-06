@@ -83,8 +83,6 @@ hr {
 .weather-forecast-temperature-min {
   opacity: 0.5;
   color: black;
-  position: relative;
-  left: 25px;
 }
 
 .weather-forecast-temperatures {

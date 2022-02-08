@@ -75,10 +75,10 @@ function displayForecast(response) {
   `;
     }
   });
-}
 
-forecastHTML = forecastHTML + `</div>`;
-forecastElement.innerHTML = forecastHTML;
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
 
 function getForecast(coordinates) {
   console.log(coordinates);
